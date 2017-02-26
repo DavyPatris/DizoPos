@@ -282,7 +282,7 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\Copy2.png" />
+    <Content Include="Images\Logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
