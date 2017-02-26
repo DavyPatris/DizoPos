@@ -331,9 +331,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\apple-icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="apple.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -362,6 +359,7 @@
     <Content Include="Images\empty.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Resource Include="Images\logo.png" />
     <Content Include="Imports\menu.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
