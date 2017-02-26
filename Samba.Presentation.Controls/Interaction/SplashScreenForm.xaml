@@ -7,7 +7,7 @@
              Height="156" Width="421" Topmost="False" WindowStyle="None" WindowStartupLocation="CenterScreen" AllowsTransparency="True" ShowInTaskbar="False" SizeToContent="WidthAndHeight">
     <Grid>
         <Border BorderBrush="Black" BorderThickness="3" CornerRadius="5" Background="DarkSlateGray">
-            <Image Source="/Samba.Presentation.Controls;component/Images/Logo.png" Width="225" Height="150" Stretch="Fill" Margin="10,10,10,10"></Image>
+            <Image Height="71" Name="image1" Stretch="Fill" Width="336" Source="/Samba.Presentation.Controls;component/Images/Logo.png" Margin="10,10,10,10" />
         </Border>
     </Grid>
     <Window.Background>
