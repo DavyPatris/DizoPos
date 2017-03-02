@@ -6,9 +6,30 @@
              mc:Ignorable="d" 
              Height="156" Width="421" Topmost="False" WindowStyle="None" WindowStartupLocation="CenterScreen" AllowsTransparency="True" ShowInTaskbar="False" SizeToContent="WidthAndHeight">
     <Grid>
-        <Border BorderBrush="Black" BorderThickness="3" CornerRadius="5" Background="DarkSlateGray">
-            <Image Height="71" Name="image1" Stretch="Fill" Width="336" Source="/Samba.Presentation.Controls;component/Images/Logo.png" Margin="10,10,10,10" />
-        </Border>
+        <TextBlock 
+  Name="textBlock"
+
+  Background="DarkSlateGray" 
+  Foreground="White" 
+
+  FontFamily="Segoe WP Black"
+  FontSize="20"
+  FontStretch="UltraExpanded"
+  FontStyle="Italic"
+  FontWeight="UltraBold"
+
+  LineHeight="Auto"
+  Padding="5,10,5,10"
+  TextAlignment="Center"
+  TextWrapping="Wrap"
+
+  Typography.NumeralStyle="OldStyle"
+  Typography.SlashedZero="True"
+>
+                <Run>LOADING...</Run>
+  <LineBreak/><Run>DIZO</Run>
+  <LineBreak/><Run>Davy's Ict Zakelijke Oplossingen</Run>
+        </TextBlock>
     </Grid>
     <Window.Background>
         <SolidColorBrush />
